@@ -1,0 +1,43 @@
+body{
+    background-color: floralwhite;
+    font-family: "DM Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Title */
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-list{
+    display: flex;
+    justify-content: center;
+}
+
+.blog-list ul li{
+    background-color: #d7dcc8;
+    border-radius: 20px;
+    margin: 10px;
+    display: block;
+    padding: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+    
+}
+
+.blog-list ul li:hover{
+    background-color: #A9B388;
+}
+
+.blog-list ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
+}
+
+
+.blog-list ul li a::before {
+    content: "✨ ";
+}
