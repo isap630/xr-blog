@@ -10,12 +10,18 @@ body{
     justify-content: space-around;
 }
 
-.blog-list{
+.list-container{
     display: flex;
     justify-content: center;
 }
 
-.blog-list ul li{
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list ul li{
     background-color: #d7dcc8;
     border-radius: 20px;
     margin: 10px;
@@ -26,11 +32,11 @@ body{
     
 }
 
-.blog-list ul li:hover{
+.list ul li:hover{
     background-color: #A9B388;
 }
 
-.blog-list ul li a{
+.list ul li a{
     text-decoration: none;
     color: black;
     font-size: 25px;
@@ -38,6 +44,6 @@ body{
 }
 
 
-.blog-list ul li a::before {
+.list ul li a::before {
     content: "✨ ";
 }
