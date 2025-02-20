@@ -13,6 +13,7 @@ body{
 .list-container{
     display: flex;
     justify-content: center;
+    gap: 250px;
 }
 
 .list{
