@@ -13,13 +13,21 @@ body{
 .list-container{
     display: flex;
     justify-content: center;
-    gap: 250px;
+    gap: 50px;
+
 }
 
 .list{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #7d9e70;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.list h2{
+    color: floralwhite;
 }
 
 .list ul li{
